@@ -1,3 +1,7 @@
+function fail(msg) {
+    throw new Error(msg);
+}
+
 function warm(msg) {
     console.log(["AVISO: ", msg].join(' '));
 }
